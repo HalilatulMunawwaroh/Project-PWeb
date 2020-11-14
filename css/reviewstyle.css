@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff;
+	font-family: Roboto;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px; 
+}
+
+a {
+	color: #A38860;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix-padding {
+	clear: both;
+	margin-top: 30%;
+}
+
+header {
+	background: #ffffff;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+
+#logo {
+	margin: 70px;
+	margin-top: 13px;
+	padding-left: 30px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(../img/logo.png) no-repeat center;
+}
+
+
+/*--- Start Nav ---*/
+.active {
+    color: #65350F;
+}
+
+nav {
+	float: right;
+	padding: 20px 30px 20px 0;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+nav a {
+	font-size: 130%;
+	color: #A38860;
+	font-weight: 300;
+}
+
+nav a:hover {
+	color: #65350F;
+}
+/*--- End Nav ---*/
+
+
+#main-content{
+	width:100%;
+	height:500px;
+	background:url(../img/header.jpg) no-repeat;
+	background-size:cover;
+	background-position:0 -200px;
+	margin-top: 85px;
+}
+
+.tanda {
+	font-size: 170%; 
+	color: #fff; 
+	background-color: #65350F;
+	margin-top: 80px; 
+	margin-bottom: 50px;
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center; 
+	padding: 5px;
+	border-radius: 20px;
+}
+
+
+#konsumen{
+    color: #65350F;
+    text-align: center; 
+    font-size: 40;
+    font-family: 'Volkhov';
+}
+
+.review1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    background-color: #FAC9A2;
+    color: #65350F;
+    width: 38%;
+    height: 200px;
+    font-family: "Roboto";
+    font-size: 20;
+}
+
+.image{
+    padding-top: 5%;
+    margin-right: 310px;
+}
+
+#nama1{
+    padding-left: 16%;
+    padding-top: 8px;
+}
+
+.bintang{
+	margin-top: 3px;
+	margin-right: 310px;
+}
+
+.komentar1{
+    margin-top: -28%;
+    margin-left: 35%;
+}
+
+#tanggal1{
+    margin-top: 9%;
+}
+
+.review2{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    background-color: #FAC9A2;
+    color: #65350F;
+    width: 38%;
+    height: 200px;
+    font-family: "Roboto";
+    font-size: 20;
+}
+
+#nama2{
+    padding-left: 13%;
+    padding-top: 8px;
+}
+
+.komentar2{
+    margin-top: -22%;
+    margin-left: 24%;
+    color: #65350F;
+}
+
+#tanggal2{
+    margin-top: 5%;
+}
+
+.review3{
+    margin-top: -45.5%;
+    margin-left: 52%;
+    background-color: #FAC9A2;
+    color: #65350F;
+    width: 38%;
+    height: 200px;
+    font-family: "Roboto";
+    font-size: 20;
+}
+
+#nama3{
+	padding-top: 7px;
+    padding-left: 14%;
+}
+
+.komentar3{
+    margin-top: -28%;
+    margin-left: 35%;
+}
+
+#tanggal3{
+    margin-top: 15%;
+}
+
+.review4{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 52%;
+    background-color: #FAC9A2;
+    color: #65350F;
+    width: 38%;
+    height: 200px;
+    font-family: "Roboto";
+    font-size: 20;
+}
+
+#nama4{
+    padding-left: 13%;
+    padding-top: 8px;
+}
+
+.komentar4{
+    margin-top: -27%;
+    margin-left: 35%;
+}
+
+#tanggal4{
+    margin-top: 24%;
+}
+
+
+
+/*--- Start Footer ---*/
+footer {
+	background: #65350F ;
+	width: 100%;
+	overflow: auto;  
+}
+
+.icon-text {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.icon-text-icon {
+	float: left;
+	width: 20%;
+	padding: 4%;
+}
+
+.icon-text-text {
+	width: 64%;
+	float: left;
+	padding: 4% 4% 2% 0;
+}
+
+.footer-nav {
+	text-align: right;
+}
+
+.footer nav ul {
+	list-style: none;
+}
+
+.footer-nav a {
+	font-size: 160%;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+.footer-nav a:hover {
+	color: #A38860;
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.social a {
+	font-size: 300%;
+	margin: 1%;
+	padding-right: 130px;
+	color: #c3d7df;
+}
+
+footer.second {
+	border-top: 1px solid #E5BFA0;
+	background-color: #4A2512;
+	text-align: center;
+	margin: 0;
+}
+
+footer.second p {
+	padding: 5px 0 9px 0;
+	text-align: center;
+	color: #ffffff;
+	font-size: 160%;
+	line-height: 155%;
+}
+/*--- End Footer ---*/

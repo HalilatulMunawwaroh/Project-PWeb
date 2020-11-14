@@ -1,0 +1,329 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff;
+	font-family: Roboto;
+	margin: 0 auto;
+}
+
+h4 {
+	padding-top: 25px;
+	font-size: 120%;
+	color: #A38860;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4px; 
+}
+
+a {
+	color: #A38860;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix-padding {
+	clear: both;
+	margin-top: 30%;
+}
+
+header {
+	background: #ffffff;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+
+#logo {
+	margin: 70px;
+	margin-top: 13px;
+	padding-left: 30px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(../img/logo.png) no-repeat center;
+}
+
+
+/*--- Start Nav ---*/
+.active {
+    color: #65350F;
+}
+
+nav {
+	float: right;
+	padding: 20px 30px 20px 0;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+nav a {
+	font-size: 130%;
+	color: #A38860;
+	font-weight: 300;
+}
+
+nav a:hover {
+	color: #65350F;
+}
+/*--- End Nav ---*/
+
+
+#main-content{
+	width:100%;
+	height:500px;
+	background:url(../img/header.jpg) no-repeat;
+	background-size:cover;
+	background-position:0 -200px;
+	margin-top: 85px;
+}
+
+
+/*--- Start konten 1 ---*/
+.konten {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.tanda {
+	font-size: 170%; 
+	color: #fff; 
+	background-color: #65350F;
+	margin-top: 90px; 
+	margin-bottom: 50px;
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center; 
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.one-third {
+	width: 33.333333%;
+	float: left;
+	text-align: justify;
+}
+
+.one-third-padding {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: justify;
+}
+
+.one-third-padding img {
+	height: 230px;
+	width: 235px;
+	border-radius: 500px;
+}
+
+.wrapper1 {
+	margin: 0 auto;
+	position: relative;
+}
+
+.wrapper2 {
+	margin: 0 auto;
+	position: relative;
+}
+
+.wrapper3 {
+	margin: 0 auto;
+	position: relative;
+}
+
+.order {
+	margin-top: 10px;
+	margin-left: 85px;
+}
+
+.sub {
+	width: 100px;
+	height: 40px;
+	background: #65350F;
+	border: 0px;
+	color: white;
+	font-size: 17px;
+	border-radius: 5px;
+}
+
+.sub2 {
+	background-color: #65350F;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-radius: 5px;
+	margin-bottom: -15px;
+}
+/*---  End konten 1 ---*/
+
+
+/*--- Start konten 2 ---*/
+.sidebar {
+	width: 50%;
+	float: left;
+	margin: 5%;
+}
+
+.right-col {
+	float: left;
+	margin: 5% 0 5% -2%;
+}
+
+.judul2 {
+	color: #65350F; 
+	font-size: 32px;
+}
+
+.garis {
+	border-top: 3px solid #65350F;
+	padding-right: 490px;
+}
+
+.promo {
+	padding-top: 28px;
+}
+
+.ikon {
+	color: #A38860;
+	margin-top: 4px;
+}
+
+.naik {
+	margin-top: 5px;
+}
+
+.sab {
+	width: 23px;
+	height: 20px;
+	padding-right: 5px;
+}
+
+.sab2 {
+	width: 23px;
+	height: 20px;
+	padding-right: 5px;
+	padding-left: 30px;
+}
+/*--- End konten 2 ---*/
+
+
+/*--- Start konten 3 ---*/
+.konten3 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.one-third-padding2 {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: justify;
+}
+
+.one-third-padding2 img {
+	height: 250px;
+	width: 500px;
+}
+/*--- End konten 3 ---*/
+
+
+/*--- Start Footer ---*/
+footer {
+	background: #65350F ;
+	width: 100%;
+	overflow: auto;  
+}
+
+.icon-text {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.icon-text-icon {
+	float: left;
+	width: 20%;
+	padding: 4%;
+}
+
+.icon-text-text {
+	width: 64%;
+	float: left;
+	padding: 4% 4% 2% 0;
+}
+
+.footer-nav {
+	text-align: right;
+}
+
+.footer nav ul {
+	list-style: none;
+}
+
+.footer-nav a {
+	font-size: 160%;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+.footer-nav a:hover {
+	color: #A38860;
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.social a {
+	font-size: 300%;
+	margin: 1%;
+	padding-right: 130px;
+	color: #c3d7df;
+}
+
+footer.second {
+	border-top: 1px solid #E5BFA0;
+	background-color: #4A2512;
+	text-align: center;
+	margin: 0;
+}
+
+footer.second p {
+	padding: 5px 0 9px 0;
+	text-align: center;
+	color: #ffffff;
+	font-size: 160%;
+	line-height: 155%;
+}
+/*--- End Footer ---*/
