@@ -22,8 +22,34 @@
 		</nav>
     </header>
 
-    <div id="main-content">		
-    </div>
+    			<div id="banner-wrapper">
+					<div class="slide-wrap">
+						<section class="slider">
+							<ul class="slider1">
+								<li><img class="mySlides" src="img/slider/1.jpg"></li>
+								<li><img class="mySlides" src="img/slider/2.jpg"></li>
+								<li><img class="mySlides" src="img/slider/3.jpg"></li>
+							</ul>
+						</section>
+					</div>
+				</div>
+
+    			<script>		
+					var myIndex = 0;
+					carousel();
+
+					function carousel() {
+					    var i;
+					    var x = document.getElementsByClassName("mySlides");
+					    for (i = 0; i < x.length; i++) {
+					       x[i].style.display = "none";  
+					    }
+					    myIndex++;
+					    if (myIndex > x.length) {myIndex = 1}    
+					    x[myIndex-1].style.display = "block";  
+					    setTimeout(carousel, 3000); // Change image every 3 seconds
+					}
+				</script>	
 
     <div class="konten">
     	<div class="tanda">
@@ -36,7 +62,7 @@
 					<h4>Donut Chocolate with Topping Oreo</h4>
 					<div class="order">
 		            	<input type="submit" value="Rp20.000-," class="sub">
-		            	<input type="image" src="img/cart.png" width="33" height="30" class="sub2">
+		            	<a href="order.html"><input type="image" src="img/cart.png" width="30" height="27" class="sub2"></a>
 		            </div>
 				</section>
 			</div>
@@ -46,7 +72,7 @@
 					<h4>Donut Chocolate with Marsmellow</h4>
 					<div class="order">
 		            	<input type="submit" value="Rp35.000-," class="sub">		               
-		            	<input type="image" src="img/cart.png" width="33" height="30" class="sub2">
+		            	<a href="order.html"><input type="image" src="img/cart.png" width="30" height="27" class="sub2"></a>
 		            </div>
 				</section>
 			</div>
@@ -56,7 +82,7 @@
 					<h4>Donut Chocolate with Topping Chesee</h4>
 					<div class="order">
 		            	<input type="submit" value="Rp19.000-," class="sub">
-		            	<input type="image" src="img/cart.png" width="33" height="30" class="sub2">
+		            	<a href="order.html"><input type="image" src="img/cart.png" width="30" height="27" class="sub2"></a>
 		            </div>
 				</section>
 			</div>
@@ -68,7 +94,7 @@
 					<h4>Donut with Topping Meses</h4>
 					<div class="order">
 		            	<input type="submit" value="Rp17.000-," class="sub">
-		            	<input type="image" src="img/cart.png" width="33" height="30" class="sub2">
+		            	<a href="order.html"><input type="image" src="img/cart.png" width="30" height="27" class="sub2"></a>
 		            </div>
 				</section>
 			</div>
@@ -78,7 +104,7 @@
 					<h4>Donut with Topping sugar</h4>
 					<div class="order">
 		            	<input type="submit" value="Rp18.000-," class="sub">		               
-		            	<input type="image" src="img/cart.png" width="33" height="30" class="sub2">
+		            	<a href="order.html"><input type="image" src="img/cart.png" width="30" height="27" class="sub2"></a>
 		            </div>
 				</section>
 			</div>
@@ -88,7 +114,7 @@
 					<h4>Donut with Topping Glaze Meses</h4>
 					<div class="order">
 		            	<input type="submit" value="Rp19.000-," class="sub">
-		            	<input type="image" src="img/cart.png" width="33" height="30" class="sub2">
+		            	<a href="order.html"><input type="image" src="img/cart.png" width="30" height="27" class="sub2"></a>
 		            </div>
 				</section>
 			</div>
@@ -132,38 +158,91 @@
     	<div id="one-third">
 			<div class="wrapper1">
 				<section class="one-third-padding2">				
-					<img src="img/outlet/1.jpg">
+					<img id="myImg" alt="0utlet bakery store" src="img/outlet/1.jpg">
 				</section>
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
 			</div>
 			<div class="wrapper2">
 				<section class="one-third-padding2">				
-					<img src="img/outlet/2.jpg">
+					<img id="myImg" alt="Outlet bakery store" src="img/outlet/2.jpg">
 				</section>
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
 			</div>
 			<div class="wrapper3">
 				<section class="one-third-padding2">				
-					<img src="img/outlet/3.jpg">
+					<img id="myImg" alt="Outlet bakery store" src="img/outlet/3.jpg">
 				</section>
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
 			</div>
 		</div>
 		<div id="one-third">
 			<div class="wrapper1">
 				<section class="one-third-padding2">				
-					<img src="img/outlet/4.jpg">
+					<img id="myImg" alt="Cooking room" src="img/outlet/4.jpg">
 				</section>
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
 			</div>
 			<div class="wrapper2">
 				<section class="one-third-padding2">				
-					<img src="img/outlet/5.jpg">
+					<img id="myImg" alt="Cooking room" src="img/outlet/5.jpg">
 				</section>
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
 			</div>
 			<div class="wrapper3">
 				<section class="one-third-padding2">				
-					<img src="img/outlet/6.jpg">
+					<img id="myImg" alt="Cooking room" src="img/outlet/6.jpg">
 				</section>
+				<div id="myModal" class="modal">
+				  <span class="close">&times;</span>
+				  <img class="modal-content" id="img01">
+				  <div id="caption"></div>
+				</div>
 			</div>
 		</div>
     </div>
+
+    <script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById("myImg");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+	</script>
     <div class="batas" style="padding: 330px;"></div>
     
 
